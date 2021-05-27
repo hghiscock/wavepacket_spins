@@ -1,0 +1,4 @@
+#!/bin/bash
+
+gprof -l ./s_yield < gmon.out > profile
+
